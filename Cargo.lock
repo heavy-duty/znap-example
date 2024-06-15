@@ -1397,6 +1397,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "more-actions"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "serde",
+ "znap-lang",
+]
+
+[[package]]
 name = "my-actions"
 version = "0.1.0"
 dependencies = [
