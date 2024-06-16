@@ -1,2 +1,2 @@
 [workspace]
-members = ["collections/*"]
+members = ["collections/*", ".znap/*"]
