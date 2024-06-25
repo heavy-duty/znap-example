@@ -1429,18 +1429,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "more-actions"
-version = "0.1.0"
-dependencies = [
- "axum",
- "serde",
- "solana-sdk",
- "spl-associated-token-account",
- "spl-token",
- "znap",
-]
-
-[[package]]
 name = "my-actions"
 version = "0.1.0"
 dependencies = [
@@ -3100,9 +3088,9 @@ dependencies = [
 
 [[package]]
 name = "znap"
-version = "0.1.10"
+version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02a0fa49c858abdfb14cb535c72c326dc48e6552539ea7c03b0b5377928aaf23"
+checksum = "30f41cee580a3a4b256f32a4d8cac63d96d9be927b06bd5265f51204b5b2b8ed"
 dependencies = [
  "axum",
  "base64 0.22.1",
@@ -3115,9 +3103,9 @@ dependencies = [
 
 [[package]]
 name = "znap-macros"
-version = "0.1.10"
+version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "79a721b381028cd333db94b84d69499ae213834f6741677c1ac02b46d74ec67e"
+checksum = "aecdac28be0958749cfe65f60a65eb80793a43cfc66a88ed34f944d75e60d349"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -3127,21 +3115,20 @@ dependencies = [
 
 [[package]]
 name = "znap-server"
-version = "0.1.6"
+version = "0.1.11"
 dependencies = [
  "axum",
  "colored",
  "console",
- "more-actions",
  "my-actions",
  "tokio",
 ]
 
 [[package]]
 name = "znap-syn"
-version = "0.1.10"
+version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a720b8aa6d08f33b72ca922e02cde2c8c6c8bc22161f60a4b85e4481392b4ec"
+checksum = "14f4b96bc4bab5f0da7c1df861cffa46961736e6ff35736d4cdba23a1823b73a"
 dependencies = [
  "colored",
  "deluxe",
